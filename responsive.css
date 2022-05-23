@@ -3,13 +3,23 @@
   body {
     margin: 0 auto;
   }
+  .container {
+    max-width: 1230px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
 
-  .heading h2,
-  .heading p {
-    text-align: center;
+  .heading {
+    text-align: left;
+    padding: 10px 0 16px 0;
+    width: 100%;
   }
 
   /**************Bagian Header************************/
+  .top-wrapper h1{
+    font-size: 30px;
+  }
   /*************Bagian Paket Populer******************/
   .package-wrapper .container {
     width: 100%;
@@ -26,6 +36,7 @@
     margin-left: 130px;
     left: 50%;
     top: 50%;
+    text-align: left;
   }
 
   .remark p {
@@ -62,6 +73,13 @@
   }
 
   /***********Bagian Kategori Tempat******************/
+  .categories {
+    width: 100%;
+  }
+  .category-card {
+    width: 25%;
+    margin: 0 32px;
+  }
   /*****************Bagian About Us****************/
   .about-us {
     width: 100%;
@@ -83,9 +101,7 @@
     padding: 20px;
   }
 
-  .heading {
-    padding: 0px;
-  }
+
 
 
   /********************Bagian footer**********************/
@@ -112,15 +128,15 @@
   /*************Bagian Paket Populer******************/
   .card {
     margin: 20px auto;
-    width: 100%;
+    width: 75%;
   }
 
   /***********Bagian Kategori Tempat******************/
   .category-card {
-    width: 100%;
+width: 30%;
     float: left;
-    margin-right: 9px;
     display: grid;
+    margin: auto 50px
   }
 
   /*****************Bagian About Us****************/
